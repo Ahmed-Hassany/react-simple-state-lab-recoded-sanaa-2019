@@ -8,10 +8,10 @@ class Cell extends Component {
       }
     }
     
-    clickHandler = () => {
+    clickHandler = (c="#333") => {
       this.setState(
           {
-              color:"#333"
+              color:c
           }
       )
     }
